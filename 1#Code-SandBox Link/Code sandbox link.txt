@@ -1,0 +1,14 @@
+Select option in using dynamice data processin using API 
+
+1# https://codesandbox.io/s/drop-down-data-binding-with-hooks-0eggu?file=/src/App.js
+2# https://www.golangprograms.com/reactjs-basic-example-to-check-checkbox-is-checked-or-uncheck.html
+filter
+3# https://upmostly.com/tutorials/react-filter-filtering-arrays-in-react-with-examples
+4# https://reactjs.org/docs/hooks-state.html
+
+column chart:
+5# https://codesandbox.io/s/basic-column-chart-in-react-canvasjs-0gfv6?fontsize=14&hidenavigation=1&theme=dark
+
+Graph Chart link:
+6# https://github.com/chartjs/awesome#charts
+7# https://www.chartjs.org/samples/latest/

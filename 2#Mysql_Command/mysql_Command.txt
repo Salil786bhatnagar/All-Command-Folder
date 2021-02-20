@@ -1,0 +1,9 @@
+                                            Mysql Command
+
+Can I get the count of repeated values in a column with MySQL?
+
+1#.select status,count(station_id) from station group by status order by count(station_id) DESC
+  mysql query:->
+
+  #.SELECT status, COUNT( status ) x FROM station GROUP BY status HAVING x >1
+  #.select status,count(station_id) as ValueCount from station group by status order by count(station_id) DESC

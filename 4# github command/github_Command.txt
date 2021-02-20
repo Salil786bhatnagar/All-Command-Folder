@@ -1,0 +1,8 @@
+1.) git config --global user.name "enter your name"
+2.) git config --global user.email "enter your email"
+3.) git clone (website Link)
+4.) cd (folder name in repositories)
+5.) git status
+6.) git add .
+7.) git commit -m "enter your commit...."
+8.) git push origin master
