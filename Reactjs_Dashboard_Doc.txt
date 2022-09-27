@@ -1,0 +1,14 @@
+Documentation:-
+
+1. npx create-react-app <folderName>
+
+npm install @mui/material @emotion/react @emotion/styled
+npm install @mui/material @mui/styled-engine-sc styled-components
+npm install @mui/icons-material
+npm install @mui/core-material
+ 	or
+2.npm install @material-ui/icons // 
+3.npm install @material-ui/core  // 
+4.npm install recharts
+5.https://fonts.google.com/
+6.https://fonts.google.com/specimen/Source+Sans+Pro?query=source

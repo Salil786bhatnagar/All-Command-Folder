@@ -1,0 +1,82 @@
+bigCommer admin dashboard:- https://store-bzm9ki5h4e.mybigcommerce.com/manage/dashboard
+https://login.bigcommerce.com/login
+https://medium.com/bigcommerce-developer-blog/create-custom-bigcommerce-react-templates-with-stencil-7db18d118d13#58ed
+https://developer.bigcommerce.com/stencil-docs/ZG9jOjIyMDcwMA-installing-stencil-cli#installing-on-windows
+https://github.com/bigcommerce/stencil-cli
+https://github.com/sacr3dc0w/cornerstone-1
+https://stenciljs.com/docs/react
+https://developer.bigcommerce.com/stencil-docs/ZG9jOjIyMDcyNA-theme-assets
+https://developer.bigcommerce.com/stencil-docs/ZG9jOjIyMDcwNw-add-react-components-with-npm
+https://www.youtube.com/watch?v=3ioIwFx_tKc&t=311s
+--------------------------------------------------------------------------------------
+
+
+command:-
+
+npm i codinglocker-stencil-demo-proj
+
+---------------------------------------------------------------------------------------
+
+react-bootstrap-table2 :- link- https://react-bootstrap-table.github.io/react-bootstrap-table2/docs/basic-search.html
+
+react-bootstrap-table2 video youtub link:-> https://www.youtube.com/watch?v=rgY1oPNVgwU
+
+
+
+video linke in dashboard: https://watch.screencastify.com/v/0KYJvVWIFx80ar4WmVPO
+
+--------------------------------------------------------------------------------------
+
+post api send data in frontend form 
+
+
+    // let data = {name, email, contact, optinWhatsapp_email}
+    //   fetch(`https://sk-qr-data-dbcapture-dev.herokuapp.com/campaign`,{
+    //     method:'POST',
+    //     headers:{
+    //       'accept':'application/json',
+    //       'content-type':'application/json'
+    //     },
+    //      body:JSON.stringify(data)
+    //   }).then((result)=>{
+    //      console.warn("data",result);
+    //   }).catch((error)=>{
+    //     console.warn("data-error",error);
+    //   })
+............................................................................
+    fetch("https://sk-qr-data-dbcapture-dev.herokuapp.com/campaign", {
+     
+    // Adding method type
+    method: "POST",
+     
+    // Adding body or contents to send
+    body: JSON.stringify({
+      "name": "mark",
+      "phone": "97826487393",
+      "email":"steve@edmaildummy.com",
+      "optinWhatsapp_email":false,
+      "product":"prod1",
+      "therapy":"skin",
+      "utm_source":"fbMAr",
+      "utm_medium":"qzMed"
+  }),
+     
+    // Adding headers to the request
+    headers: {
+        "Content-type": "application/json; charset=UTF-8"
+    }
+})
+ 
+// Converting to JSON
+.then(response => response.json())
+ 
+// Displaying results to console
+.then(json => console.log(json));
+............................................................................
+
+
+............................................................................
+
+Pdf pagefile in using page:-> https://codesandbox.io/s/9yqfq?file=/package.json
+
+----------------------------------------------------------------------------
